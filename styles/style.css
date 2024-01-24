@@ -139,8 +139,10 @@
   opacity: 0.5;
 }
 
-@supports ((text-stroke: 1px var(--bg-color)) or (-webkit-text-stroke: 1px var(--bg-color);
-)) {
+@supports (
+  (text-stroke: 1px var(--bg-color)) or
+    (-webkit-text-stroke: 1px var(--bg-color))
+) {
   .img__lebel {
     -webkit-text-stroke: 1px var(--bg-color);
     text-stroke: 1px var(--bg-color);
@@ -195,15 +197,12 @@
 }
 
 .list-item__text {
-  font-size: 18px;
-  line-height: 21px;
-}
-
-.list-item__text {
   padding-block-start: 20px;
   padding-inline-end: 26px;
   padding-inline-start: 24px;
   padding-block-end: 6px;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .card__button {
