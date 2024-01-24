@@ -13,18 +13,6 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
 
-.content__button:focus {
-  transition: 0.3s ease;
-}
-
-.content__button:focus-visible {
-  transition: 0.3s ease;
-}
-
-.content__button::after {
-  transition: 0.5s translate ease-in-out;
-}
-
 @keyframes strelka {
   from {
     left: 6px;
@@ -61,6 +49,10 @@
 .main-body {
   fill: transparent;
   transition: fill 0.3s linear;
+}
+
+.contour {
+  transition: fill 0.1s linear;
 }
 
 .like-icon:hover .main-body {
@@ -105,11 +97,11 @@
 
 .like-icon.is-liked .heart {
   transform-origin: center;
-  animation: heart 0.3s 0.1s ease-in-out;
+  animation: heart 0.3s 0.1s ease-in;
   animation-direction: alternate;
 }
 
 .like-icon.is-liked .sparks {
-  animation: sparks 0.3s 0.3s ease-in-out;
+  animation: sparks 0.3s 0.3s ease-in;
   animation-direction: alternate;
 }
