@@ -106,7 +106,7 @@
   width: 0%;
   height: 2px;
   background-color: var(--accent-color);
-  transition: width 0.6s;
+  transition: width 0.3s;
 }
 
 .theme-menu__button:focus-visible::after {
@@ -265,6 +265,7 @@
   max-height: 38px;
   padding: 0;
   margin-inline-end: 6px;
+  transition: 0.3s ease;
 }
 
 .card__icon-button:focus {
@@ -274,7 +275,6 @@
 .card__icon-button:focus-visible {
   outline: 2px solid var(--accent-color);
   outline-offset: -2px;
-  transition: 0.3s ease;
 }
 
 .content__save {
