@@ -207,7 +207,7 @@
 
 .card__button {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   margin-block-start: 20px;
   padding-block-end: 25px;
   margin-inline-end: 26px;
